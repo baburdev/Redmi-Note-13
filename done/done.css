@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+}
+a, span, label {
+    display: inline-block;
+    text-decoration: none;
+}
+.container {
+    max-width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.df {
+    text-align: center;
+}
+.text1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #42d142;
+}
+.text2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.icon {
+    color: #42d142;
+    font-size: 45px;
+    cursor: pointer;
+}
